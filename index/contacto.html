@@ -5,32 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Contacto - Envianos tu consulta</title>
 </head>
 
 <body>
     <header>
-
+        <h1>Contacto</h1>
     </header>
+    
     <nav>
         <ul>
-            <li></li>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="productos.html">Productos</a></li>
             <li><a href="contacto.html">Contacto</a></li>
             <li><a href="reseñas.html">Reseñas</a></li>
-
         </ul>
     </nav>
+
     <main>
-        <form action="https://formspree.io/f/xgvkbopp" method="POST">
-            <input type="text" placeholder="Su Nombre" name="nombre">
-            <input type="email" placeholder="Su Email" name="email">
-            <textarea rows="5" cols="30" placeholder="Su consulta" name="message"></textarea>
-            <button type="submit">Enviar mensaje</button>
-        </form>
+        <section style="height: 100%; width: 100%;">
+            <form action="https://formspree.io/f/xgvkbopp" method="POST">
+                <h2>Dejanos tu mensaje</h2>
+                <br>
+                <input type="text" placeholder="Su Nombre" name="nombre" required style="margin: 10px; padding: 10px; width: 250px;">
+                <input type="email" placeholder="Su Email" name="email" required style="margin: 10px; padding: 10px; width: 250px;">
+                <textarea rows="5" cols="30" placeholder="Su consulta" name="message" required style="margin: 10px; padding: 10px; width: 250px;"></textarea>
+                <button type="submit" style="padding: 10px 20px; cursor: pointer;">Enviar mensaje</button>
+            </form>
+        </section>
     </main>
+    
     <footer>
+        <h4>Perfumes árabes y de diseñador - 2026</h4>
+    </footer>
+</body>
+</html>
         <h4>Perfumes árabes y de diseñador</h4>
     </footer>
 </body>
