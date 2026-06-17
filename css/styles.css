@@ -109,7 +109,7 @@ form {
 
 
 
-  .marcas {
+.marcas {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -130,7 +130,7 @@ form {
 
 
 
-  .productos {
+.productos {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -163,8 +163,7 @@ form {
     gap: 15px;
     padding: 5%;
     background-color: #f9f9f9;
-    
-  }
+}
 
  
 .comentario {
@@ -178,14 +177,7 @@ form {
     gap: 8px;
 }
 
-  .comentario .fecha {
-    font-size:90%;
+.comentario .fecha {
+	font-size:90%;
     color: #888;
-    
-  }
-
- 
-
-/*rojo: #DA251C   */
-/* gris #666
-cambiar nav a desplegable con view port menor a 380
+}
